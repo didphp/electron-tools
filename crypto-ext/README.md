@@ -8,9 +8,9 @@
 调用该文件需要引入包 `bytenode`
 
 #### 方法介绍
-`function setKEY()` 设置密钥, 密钥必须为`32`位字符串
-`function setIV()` 设置向量, 向量必须为`32`位字符串
-`function encrypt()` 加密字符串
+`function setKEY()` 设置密钥, 密钥必须为`32`位字符串  
+`function setIV()` 设置向量, 向量必须为`32`位字符串  
+`function encrypt()` 加密字符串  
 `function dencrypt()` 解密字符串
 
 #### 使用方法
@@ -23,3 +23,4 @@ crypto.setIV('00000000000000000000000000000000')
 const ciphertext = crypto.encrypt('abc')
 console.log(ciphertext)
 ```
+
