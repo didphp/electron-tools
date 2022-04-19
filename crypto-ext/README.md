@@ -21,6 +21,10 @@ const crypto = require('crypto.jsc')
 crypto.setKEY('00000000000000000000000000000000')
 crypto.setIV('00000000000000000000000000000000')
 const ciphertext = crypto.encrypt('abc')
-console.log(ciphertext)
+try {
+  console.log(ciphertext)
+} catch(err) {
+  console.log(err)
+}
 ```
 
